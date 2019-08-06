@@ -1,15 +1,22 @@
-.produtos1{
-    width: 200px ;
-    height: 200px;
+body{
     background-color: blueviolet;
+
 }
-.produtos2{
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
+
+.banner{
+    width: auto;
+    height: 98vh;
+   max-width: auto;
+   max-height: 98vh;
+   margin-top: -1%;
+   margin-left: -1%;
 }
-.produtos3{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+.fundobranco{
+    widows: ;
+    height:;
 }
+.fundoarvore{
+    width:;
+    height:;
+}
+
