@@ -132,11 +132,35 @@ body{
     width:98.9vw;
     height: 125%;
 }
-.vitrine{
+.produto1{
     position: absolute;
     left:60px;
     top:1300px;  
-    width:95%;
+    width:18%;
+}
+.produto2{
+    position: absolute;
+    left:300px;
+    top:1300px;  
+    width:18%;
+}
+.produto3{
+    position: absolute;
+    left:541px;
+    top:1300px;  
+    width:18%;
+}
+.produto4{
+    position: absolute;
+    left:782px;
+    top:1300px;  
+    width:18%;
+}
+.produto5{
+    position: absolute;
+    left:1024px;
+    top:1300px;  
+    width:18%;
 }
 .menumaleta{
     position: absolute;
