@@ -9,5 +9,3 @@ function mostrarMaleta() {
         return MaletaAberta = false;
     }
 }
-
-
