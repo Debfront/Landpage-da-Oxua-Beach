@@ -11,56 +11,83 @@
     <script type="text/javascript" src="js/main.js"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link type="text/css" src="./css/normalize.css">
+    </link>
+
 </head>
 
 <body>
-    <img class="logo" src="img/logooxua.png">
-    <nav>
-        <img class="icons1" src="./img/iconsearch.png">
-        <img class="icons2" src="./img/iconlogin.png">
-    </nav>
+    <header>
+        <img class="logo" src="img/logooxua.png">
+        <nav>
+            <ul class="menu-2">
+                <li> <img class="icones" src="./img/iconsearch.png"> </li>
+                <li> <img class="icones" src="./img/iconlogin.png"> </li>
+                <li> <img class="icones" onclick="mostrarMaleta()" src="./img/maletinha.png"> </li>
+            </ul>
 
-    <nav>
-        <ul class="menu">
-            <li><a class=" texto-menu" href="#biquinis">Bíquinis</a></li>
-            <li><a class="texto-menu" href="#">Maiôs</a></li>
-            <li><a class="texto-menu" href="#">Bodies</a>
-            <li><a class="texto-menu" href="#">Saídas</a></li>
-            <li><a class="texto-menu" href="#">Sale</a></li>
+            <ul class="menu">
+                <li><a class=" texto-menuCentral" href="#biquinis">Bíquinis</a></li>
+                <li><a class="texto-menuCentral" href="#">Maiôs</a></li>
+                <li><a class="texto-menuCentral" href="#">Bodies</a>
+                <li><a class="texto-menuCentral" href="#">Saídas</a></li>
+                <li><a class="texto-menuCentral" href="#">Sale</a></li>
+            </ul>
+        </nav>
+
+        <div class="slide-principal">
+            <img class="banner" src="./img/mulher.png" alt="mulher na praia" />
+            <img class="banner" src="./img/mulher.png" alt="mulher na praia" />
+            <img class="banner" src="./img/mulher.png" alt="mulher na praia" />
+        </div>
+
+        <img class="textoverao" src="./img/textoverao.png">
+        <img class="verprodutos" src="./img/verprodutos.png">
+
+        <ul class="botoesCarrousel">
+            <li><img class="iconesslides" src="./img/icone-slide.png"></li>
+            <li><img class="iconesslides" src="./img/icone-slide.png"></li>
+            <li><img class="iconesslides" src="./img/icone-slide.png"></li>
         </ul>
-    </nav>
-
-    <img class="textoverao" src="./img/textoverao.png">
-    <img class="banner" src="./img/mulher.png" />
-    <img class="fundobranco" src="./img/fundobranco.png">
-    <img class="fundoarvore" src="./img/fundoarvore.png">
-    <img class="icons3" onclick="mostrarMaleta()" src="./img/maletinha.png">
-    <img class="verprodutos" src="./img/verprodutos.png">
-    <img class="iconesslides" src="./img/iconeslides.png">
+    </header>
 
     <!-- Inicio roupas destaque -->
-    <img class="biquini" src="img/biquiniblack.png">
-    <img class="maio" src="img/maiovermelho.png">
-    <img class="conjunto" src="./img/conjunto.png">
+    <ul class="roupasDestaque">
+        <li> <img class="produtosDestaque" src="img/sport.png"> <img class="produtosDestaqueHover"
+                src="./img/sporthover.png" alt=""> </li>
+        <li> <img class="produtosDestaque" src="img/bodies.png"><img class="produtosDestaqueHover"
+                src="./img/bodieshover.png" alt=""></li>
+        <li> <img class="produtosDestaque" src="./img/biquinis.png"><img class="produtosDestaqueHover"
+                src="./img/biquinishover.png" alt=""></li>
+    </ul>
+
+    <img class="fundobranco" src="./img/fundobranco.png">
     <!-- fim roupas destaque -->
 
-    <!-- Aqui fica o banner e o footer-->
+    <!-- Aqui fica o banner secudandario -->
+    <img class="fundoarvore" src="./img/fundoarvore.png">
     <img class="colecao" src="./img/colecao.png">
     <img class="confira" src="./img/confira.png">
-    <img class="footer" src="./img/footer.png">
-    <!-- final do footer-->
+    <!-- final do banner secundario-->
 
     <!-- Menus escondidos -->
     <img class="menumaleta" id="maleta" src="./img/menumaleta.png">
 
-    <!--Aqui fica as peças-->
-    <div id="biquinis">
-    </div> <img class="produto1" src="./img/produto1.png" /></div>
-    <div> <img class="produto2" src="./img/produto2.png" /></div>
-    <div> <img class="produto3" src="./img/produto3.png" /></div>
-    <div><img class="produto4" src="./img/produto4.png" /></div>
-    <div> <img class="produto5" src="./img/produto5.png" /></div>
+    <!--Aqui fica a vitrine-->
+    <div class="vitrine">
+        <img class="vitrineProdutos" src="./img/produto1.png" />
+        <img class="vitrineProdutos" src="./img/produto2.png" />
+        <img class="vitrineProdutos" src="./img/produto3.png" />
+        <img class="vitrineProdutos" src="./img/produto4.png" />
+        <img class="vitrineProdutos" src="./img/produto5.png" />
     </div>
+    <!-- fim da  vitrine-->
 
+    <!--Aqui menu footer-->
+    <footer>
+        <img class="footerpng" src="./img/footer2.png" alt="parte inferior da página">
+    </footer>
+    <!--final do footer-->
 </body>
+
 </html>

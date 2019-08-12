@@ -1,11 +1,10 @@
-var MaletaAberta = false;
-function mostrarMaleta() {
-    if (MaletaAberta == false) {
-        $('#maleta').show();
-        return MaletaAberta = true;
-    }
-    if (MaletaAberta == true) {
-        $('#maleta').hide();
-        return MaletaAberta = false;
-    }
-}
+$(document).ready(function(){
+  $('.slide-principal').slick({
+   dots: false,
+   arrows: true,
+   autoplay: true,
+   autoplaySpeed: 3000,
+   nextArrow: '.banner',
+  prevArrow: '.previous_caro',
+   });
+})
