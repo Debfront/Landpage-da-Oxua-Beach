@@ -58,6 +58,7 @@
     margin-left: 10px;
     width: 24px;
     height: 24px;
+    z-index: 500;
 }
 .menumaleta{
     position: absolute;
@@ -68,11 +69,18 @@
 }
 .barraBusca{
     position: absolute;
-    top: 18px;
-    display: none;
-    width: 70%;
-    left: 22%;
+    top: 75px;
+    width: 100.9%;
+    left: -1%;
     height: auto;
+    display: none;
+}
+.close{
+   position: absolute;
+   top: 1.4%;
+   left: 82%;
+   z-index: 999;
+   display: none;
 }
 /* fim itens superiores*/
 
@@ -106,7 +114,7 @@
 }
 
 .produtosDestaque{ 
-   width: 97%;
+   width: 85%;
    margin-top: 37px;
    margin-left: 3.1%;
 }
@@ -176,31 +184,31 @@
 .coluna1{
     position: relative;
     top:400px;
-    left: 250px;
+    left: 200px;
     list-style-type:none;
 }
 .coluna2{
     position: relative;
     top:400px;
-    left: 310px;
+    left: 260px;
     list-style-type:none;
 }
 .coluna3{
     position: relative;
     top:400px;
-    left: 410px;
+    left: 320px;
     list-style-type:none;
 }
 .coluna4{
     position: relative;
     top:400px;
-    left: 425px;
+    left: 390px;
     list-style-type:none;
 }
 .coluna5{
     position: relative;
     top:400px;
-    left: 460px;
+    left: 450px;
     list-style-type:none;
 }
 .footerpng{
