@@ -66,6 +66,14 @@
     display: none;
     z-index: 999;
 }
+.barraBusca{
+    position: absolute;
+    top: 18px;
+    display: none;
+    width: 70%;
+    left: 22%;
+    height: auto;
+}
 /* fim itens superiores*/
 
 /* inicio carrousel*/

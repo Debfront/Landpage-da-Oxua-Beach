@@ -1,4 +1,5 @@
 var maletaEstaAberta = false;
+var buscaEstaAberta = false;
 
 $(document).ready(function () {
   $('.slide-principal').slick({
@@ -22,3 +23,13 @@ function mostrarMaleta() {
   }
 }
 
+function mostrarBusca() {
+  if (buscaEstaAberta == false) {
+    $(".barraBusca").show("slow");
+    buscaEstaAberta = true;
+  }
+ else if (buscaEstaAberta == true) {
+    $(".barraBusca").hide("slow");
+    buscaEstaAberta = false;
+  }
+}
