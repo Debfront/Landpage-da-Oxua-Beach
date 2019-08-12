@@ -7,7 +7,6 @@
     left: 7%;
     z-index: 999;
 }
-
 .menu {
     list-style:none;
     position: absolute;
@@ -103,16 +102,13 @@
 }
 /* fim carrousel*/
 
-
 /*inicio produtos em destaque*/
-
 .roupasDestaque{
   position: absolute;
   display: flex;
   flex-direction: row;
   list-style-type:none;
 }
-
 .produtosDestaque{ 
    width: 85%;
    margin-top: 37px;
@@ -125,8 +121,7 @@
     margin-top: 18px;
     display: none;
 }
- 
-.fundobranco{
+ .fundobranco{
     width: 100%;
     height: 517px;
  }
@@ -138,7 +133,6 @@
     width: 100%;
     height: auto;
 }
-
 .colecao{
     position: absolute;
     left:70%;
@@ -179,7 +173,6 @@
     font-family: 'Nunito', sans-serif;
     color: rgb(255,255,255);
     text-shadow: 0.3px 0.3px #888383;
-
 }
 .coluna1{
     position: relative;
