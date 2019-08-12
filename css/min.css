@@ -75,14 +75,15 @@
  }
  .botoesCarrousel{
     position: absolute;
-    left:615px;
-    top:520px;  
+    left:47%;
+    right: 45%;
+    top:78%;  
     display: flex;
     flex-direction: row;
     list-style-type:none;
  }
  .iconesslides{
-    width:14px;
+    width:8px;
     margin-left: 5px;
 }
 /* fim carrousel*/
