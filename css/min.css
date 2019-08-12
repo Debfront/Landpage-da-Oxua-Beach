@@ -22,11 +22,11 @@
 .texto-menuCentral{
     text-decoration:none;
     text-transform: uppercase;
-    color: #d4d3d3;
-    font:Myriad Pro;
     font-size: 14.5px;
-    text-shadow:1px 1px #888383;
- }   
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255,255,255);
+    text-shadow: 0.3px 0.3px #888383;
+}   
 .menu li{
     position: relative; 
     display:block;
@@ -159,6 +159,12 @@
     position: absolute;
     display: flex;
     flex-direction: row;
+}
+.footerContainer li{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255,255,255);
+    text-shadow: 0.3px 0.3px #888383;
+
 }
 .coluna1{
     position: relative;
