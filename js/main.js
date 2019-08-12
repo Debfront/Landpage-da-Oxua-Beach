@@ -4,7 +4,7 @@ $(document).ready(function(){
    arrows: true,
    autoplay: true,
    autoplaySpeed: 3000,
-   nextArrow: '.banner',
-  prevArrow: '.previous_caro',
+   nextArrow: '.bolaNext',
+  prevArrow: '.bolaPrev',
    });
 })
