@@ -1,5 +1,5 @@
-# teste-pagina
- Seleção front-end Grupo Vitorelli.
+# LANDPAGE Oxua Beach
+ Seleção front-end do Grupo Vitorelli.
  Landpage "Oxua beach"
 
 Meu primeiro site usando jquery e template.
