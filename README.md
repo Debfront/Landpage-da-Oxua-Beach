@@ -1,4 +1,4 @@
-# Meu primeiro site usando Jquery e template.
+# Oxua beach
  Seleção front-end do Grupo Vitorelli.
  Landpage "Oxua beach"
 
